@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />"
+
+    </head>
+
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+           
+            div.container{
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            flex: 50%;
+            border:50%;
+            height: 1300px;
+            margin: 40px;
+            background-color: white;
+            transform: translate(-50 -50);
+            transition: all;
+            box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+            background-image: url(desktop-wallpaper-portfolio-background-portfolio-background-portfolio-and-career-portfolio.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+            
+        div.navbar{
+            margin: 10px 0px 0px 900px;
+            padding-top: 10px;  
+            
+        }
+        div.navbar li{
+            list-style-type: none;
+            font-family:inherit;
+            font-size: x-large;
+            text-align: right;
+        }
+        li a{
+            text-decoration: none;
+            margin: 10px;
+            color: white;  
+            padding: 5px; 
+        }
+        li a:hover{
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+        }
+     h1{
+        margin:10;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+       }
+       h1.name{
+        color: white;
+        margin: 1px;
+        margin-top: 300px;
+        margin-left:40px;
+        font-size: 100px;
+        font-family:serif;
+       }
+       p{
+        margin:0;
+        position: absolute;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+       }
+       p.name{
+        color: whitesmoke;
+        margin-top: 10px;
+        margin-left: 30px;
+        font-size: 27px;
+        font-family:serif;
+        margin-bottom: 0;
+       }
+       div.icons{
+        margin: 100px;
+        margin-left: 300px;
+        
+       }
+       i{
+        font-size: xx-large;
+        padding: 10px;
+        transform: translate(-50 -50);
+        transition: all 1ms;
+       }
+     i:hover{
+       filter:drop-shadow(20px 20px 20px )
+     }
+     div.contact{
+      margin-left: 700px;
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+      padding-left: 100px;
+      
+     }
+     button.contact{
+        padding:15px;
+        padding-right: 100px;
+        border-radius: 15px;
+        background-color: black;
+
+     }
+     a{
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-family: serif;
+        font-size:x-large;
+     }
+     div.download{
+      justify-content: space-around;
+      padding-left: 100px;
+     }
+     button.download{
+        padding:15px;
+        border-radius: 15px;
+        background-color: black;
+     }
+     div.body{
+        display: flex;
+        justify-content:left;
+        align-items: left;
+        min-height: 100px;
+
+     }
+     div.container1{
+        margin: 30px;
+          position: relative;
+          display: flex;
+          justify-content:left;
+          text-align: left;
+          color: white;
+          flex-wrap: wrap;
+          
+     }
+     span{
+        gap: 40px;
+        font-family: serif;
+        font-size: x-large;
+        padding-left: 100px;
+        justify-content: space-evenly;
+    
+     }
+     input.end{
+        padding-left: 150px;
+        border-radius: 10px;
+        background-color: rgb(103, 169, 223);
+     }
+     input.Java{
+        padding-left: 100px;
+        border-radius: 10px;
+        background-color: rgb(103, 169, 223);
+     }
+     input.Python{
+        padding-left: 50px;
+        border-radius: 10px;
+        background-color: rgb(103, 169, 223);
+     }
+
+        </style>
+
+    <body>
+        <title>My Portfolio</title>
+      <div class="container">
+        <div class="navbar">
+            <li>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </li>
+        </div>
+            
+            <div id="home">
+                <div class="home">
+                  
+                    <h1 class="name">
+                        Hi, This Is  Vanitha:) 
+                    </h1>
+                    <p class="name">
+                        Front end developer and web desginer
+                    </p>
+                    <div class="icons">
+                    <i class="fa-brands fa-square-instagram" style="color: red;" ></i>
+                    <i class="fa-brands fa-square-facebook" style="color: skyblue;"></i>
+                    <i class="fa-brands fa-square-whatsapp" style="color: rgb(74, 214, 74);"></i>
+                    <i class="fa-brands fa-square-x-twitter" style="color: white;"></i>
+                    </div>
+                    <div id="contact">
+                    <div class="contact">
+                        <button class="contact">
+                        <a href="" target="_blank">Contact</a>
+                        </button>
+                        <div class="download">
+                        <button class="download">
+                            <i class="fa-solid fa-download" style="color: whitesmoke;"></i>
+                            <a href="" target="_blank">
+                          Download Resume</a>
+                        </button>
+                    </div>
+                    </div>
+                    <div id="skills">
+                      <div class="container1">
+                        <span>
+                            <h3>Front-end</h3>
+                            85%
+                            <input class="end" type="" target="_blank"><br>
+                            <br>
+                           
+                            <h3>Java</h3>
+                            70%
+                            <input class="Java" type="" target="_blank"><br>
+                            <br>
+                            <h3>Python</h3>
+                            65%
+                            <input class="Python" type="" target="_blank"><br>
+                            <br>
+         </span>
+     </body>  
+</html>
